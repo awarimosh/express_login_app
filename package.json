@@ -15,10 +15,15 @@
   "license": "MIT",
   "homepage": "https://github.com/bipinswarnkar1989/mern_stack_tutorial_todo_app#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "express": "^4.16.2",
+    "http-status": "^1.0.1",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
     "mongoose": "^4.11.7",
-    "socket.io": "^2.0.3",
-    "http-status": "^1.0.1"
+    "morgan": "^1.9.0",
+    "q": "^1.5.1",
+    "socket.io": "^2.0.3"
   }
 }

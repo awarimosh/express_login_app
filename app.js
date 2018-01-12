@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const http = require('http');
+const logger = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 // Get gist route
@@ -20,6 +21,8 @@ app.use(function(req,res,next){
     next();
 });
 
+
+app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true }));
 app.use(express.static(path.join(__dirname, 'public')));
