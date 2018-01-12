@@ -1,7 +1,7 @@
 {
-  "name": "sg-queue-api",
+  "name": "express_login_app",
   "version": "1.0.0",
-  "description": "Backend of Signage QMS",
+  "description": "Login App with Express and Node",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://awairmosh@bitbucket.org/awairmosh/sg-queue-api.git"
+    "url": "https://github.com/awarimosh/express_login_app.git"
   },
   "author": "Moshood Awari",
   "license": "MIT",
